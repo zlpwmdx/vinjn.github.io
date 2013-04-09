@@ -6,7 +6,10 @@ title: 使用 Notepad++ 打造 Processing 开发环境
 {{ page.title }}
 ================
 
-本文[首发](http://www.hudo.it/index.php/topic,520.0.html)于 hudo.it 社区
+本文[首发](http://www.hudo.it/index.php/topic,520.0.html)于 hudo.it 社区   
+后来我发现github上存在很多 Processing 的编辑环境
+
+------------------
 
 Processing/p5 的开发环境，简称为PDE，适合做快速开发（Sketching），但是维护项目时痛苦、臃肿、蛋疼……   
 使用外置编辑器来作为 p5 开发环境是作为程序员的我第一时间就想做的
