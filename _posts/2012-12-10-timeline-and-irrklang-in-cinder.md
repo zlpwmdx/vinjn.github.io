@@ -6,7 +6,6 @@ title: 在Cinder中使用timeline实现复杂的声音播放逻辑
 {{ page.title }}
 ================
 
-<p class="meta">10 Dec 2012 - Shanghai</p>
 本文[首发](http://www.hudo.it/index.php/topic,495.0.html)于 hudo.it 社区
 
 在本文中，我们将实现的功能有：
