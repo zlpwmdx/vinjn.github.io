@@ -38,4 +38,4 @@ The book has 11 chapters, but only 10 of them are printed in the book, the 11th 
 本书很厚道地提供了[一章免费的试读][ch11pdf]，讲解了如何与其他开发环境通信，使用的通信工具有 Syphon 和 OSC 协议。这章非常精彩，不知为何并没有放入实体书中。
 
 [booklink]: http://www.packtpub.com/begin-creative-coding-with-cinder/book
-[ch11pdf]:	http://www.packtpub.com/sites/default/files/downloads/Escaping_Singleness.pdf
+[ch11pdf]: http://www.packtpub.com/sites/default/files/downloads/Escaping_Singleness.pdf
