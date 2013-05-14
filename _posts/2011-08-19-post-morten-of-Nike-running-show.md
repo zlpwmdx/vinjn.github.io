@@ -29,8 +29,8 @@ title: Nike 运动会跑步机互动项目的心得分享
 用processing访问的时候必须注意，通过不停地new Client的方式去获取信息，会使得内存很快就用尽，以致程序无响应。<br>
 幸好processing提供了另一个方法 loadStrings
 
-    String[] lines = loadStrings("http://192.168.1.100");
-    println(lines);
+        String[] lines = loadStrings("http://192.168.1.100");
+        println(lines);
     
 * 网络消息无法发送时的解决思路
 1 网线是否连接，是否断掉 
@@ -98,12 +98,10 @@ title: Nike 运动会跑步机互动项目的心得分享
 当程序的行数达到一定规模（几百上千行）时，tab的意义就浮现出来了
 
 * 主tab，也就是默认就有的那个tab里，放置setup()和draw()，尽量简短些
-* 特定的功能都在各自的tab中实现
-* 
-比如声音相关的函数都放在名为minim的tab里
+* 特定的功能都在各自的tab中实现，比如声音相关的函数都放在名为minim的tab里
 
-    minim_setup();
-    minim_draw();
+        minim_setup();
+        minim_draw();
 
 主tab负责调用这些子tab里的 xx_setup()和 xx_draw() 即可
 
