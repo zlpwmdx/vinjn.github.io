@@ -27,7 +27,8 @@ title: Nike 运动会跑步机互动项目的心得分享
 * 使用osc，processing用oscP5，C++使用ofxOsc
 * arduino的以太网模块很好用，能够以网页服务器的形式运作，用浏览器就可以查看信息。<br>
 用processing访问的时候必须注意，通过不停地new Client的方式去获取信息，会使得内存很快就用尽，以致程序无响应。<br>
-幸好processing提供了另一个方法loadStrings
+幸好processing提供了另一个方法 loadStrings
+
     String[] lines = loadStrings("http://192.168.1.100");
     println(lines);
 * 网络消息无法发送时的解决思路
@@ -62,7 +63,8 @@ title: Nike 运动会跑步机互动项目的心得分享
 * winner--冠军颁奖
 
 每个状态用一个整数来标示，从0开始（processing用枚举不方便，否则应该用枚举）<br>
-用一个变量int state 来表示状态本身<br>
+用一个变量int state 来表示状态本身
+
     final int idle = 0;
     final int intro = 1;
     final int countdown = 2;
@@ -95,10 +97,11 @@ title: Nike 运动会跑步机互动项目的心得分享
 * 主tab，也就是默认就有的那个tab里，放置setup()和draw()，尽量简短些
 * 特定的功能都在各自的tab中实现
 比如声音相关的函数都放在名为minim的tab里
+
     minim_setup();
     minim_draw();
 
-主tab负责调用这些子tab里的xx_setup()和xx_draw()即可
+主tab负责调用这些子tab里的 xx_setup()和 xx_draw() 即可
 
 类似的，network/tuio/osc 相关的函数也应该放在名为network的tab里
 
