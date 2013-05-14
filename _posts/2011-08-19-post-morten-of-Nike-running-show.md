@@ -31,6 +31,7 @@ title: Nike 运动会跑步机互动项目的心得分享
 
     String[] lines = loadStrings("http://192.168.1.100");
     println(lines);
+    
 * 网络消息无法发送时的解决思路
 1 网线是否连接，是否断掉 
 2 MAC/IP是否有冲突 
@@ -85,9 +86,11 @@ title: Nike 运动会跑步机互动项目的心得分享
     void intro_draw();
 
 状态切换时需要调用
+
     xx_setup();
     
 状态进行时需要调用
+
     xx_draw();
 
 ## tab（标签页）的使用
@@ -96,6 +99,7 @@ title: Nike 运动会跑步机互动项目的心得分享
 
 * 主tab，也就是默认就有的那个tab里，放置setup()和draw()，尽量简短些
 * 特定的功能都在各自的tab中实现
+* 
 比如声音相关的函数都放在名为minim的tab里
 
     minim_setup();
