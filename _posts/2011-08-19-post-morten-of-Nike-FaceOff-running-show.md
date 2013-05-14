@@ -11,9 +11,10 @@ title: Nike 运动会跑步机互动项目的心得分享
 
 [现场视频2](http://v.youku.com/v_show/id_XMjk2MTMyNjg0.html)
 
-[Processing 部分源代码](https://github.com/vinjn/processing_sketch/tree/master/SuperNature_Nike_FaceOff)
+[Processing 代码](https://github.com/vinjn/processing_sketch/tree/master/SuperNature_Nike_FaceOff)
 
 ------------
+
 ## HelloWorld
 
 * 不同的程序之间要分离，保证一个程序出问题，其他程序不受影响
