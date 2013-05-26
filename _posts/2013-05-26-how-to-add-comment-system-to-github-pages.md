@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add comment system to Github pages
+title: How to add comments to Github pages
 ---
 
 {{ page.title }}
