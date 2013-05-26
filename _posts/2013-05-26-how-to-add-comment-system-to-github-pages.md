@@ -17,8 +17,15 @@ What you need to do is:
 
 1. Create an account in disqus.com
 2. Register your site for free
-3. Copy-paste the javascipt codes to
+3. Copy-paste two blocks of javascipt codes to
 
     yourname.github.io\_layouts\post.html
 
 This step might be diffcult for js-noobs like me, refer to [my implemetation](https://github.com/vinjn/vinjn.github.io/blob/master/_layouts/post.html) if you feel dizzy. 
+
+The two blocks starts with 
+
+    <!-- disqus loading --> 
+and 
+
+    <!-- disqus rendering -->
