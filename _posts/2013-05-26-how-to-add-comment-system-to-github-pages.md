@@ -19,7 +19,7 @@ What you need to do is:
 2. Register your site for free
 3. Copy-paste two blocks of javascipt codes to
 
-    yourname.github.io\_layouts\post.html
+        yourname.github.io\_layouts\post.html
 
 This step might be diffcult for js-noobs like me, refer to [my implemetation](https://github.com/vinjn/vinjn.github.io/blob/master/_layouts/post.html) if you feel dizzy. 
 
