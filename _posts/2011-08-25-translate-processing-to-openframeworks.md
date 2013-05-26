@@ -14,7 +14,7 @@ Because:
 2. P5 hides the class from users, while OF requires understanding of class and objects.
 3. Different 3rd party libraries.
 
-The following header file is a naive approach to this hard problem. It can complate some find-replace tasks. 
+The following header file is a naive approach to this hard problem, however it does satisfy some find-replace tasks. 
 
 Enjoy!
 
