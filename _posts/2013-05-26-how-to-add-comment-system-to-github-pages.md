@@ -6,14 +6,17 @@ title: How to add comment system to Github pages
 {{ page.title }}
 ================
 
-Github pages are static html files generated from text-only markdown files hosted on github.com.
-Since they are static, there is no way to dynamically generate content, and you can't use a normal comment system.
+Github pages are static html files generated from text-only markdown files hosted on github.com. Since they are static, there is no way to dynamically generate content, and you can't use a normal comment system.<br>
+
 But we do have a solution.
+
 It's disqus.
 
+
 What you need to do is:
+
 1. Create an account in disqus.com
 2. Register your site for free
-3. Copy-paste the javascipt codes to 
+3. Copy-paste the javascipt codes to<br>
     yourname.github.io\_layouts\post.html
 This step might be diffcult for js-noobs like me, refer to [my implemetation](https://github.com/vinjn/vinjn.github.io/blob/master/_layouts/post.html) if you feel dizzy. 
