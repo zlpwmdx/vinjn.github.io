@@ -10,14 +10,14 @@ Github pages are static html files generated from text-only markdown files hoste
 
 But we do have a solution.
 
-It's disqus.
+It's [disqus](http://disqus.com/).
 
 
 What you need to do is:
 
-1. Create an account in disqus.com
+1. Create an account in disqus
 2. Register your site for free
-3. Copy-paste two blocks of javascipt codes to
+3. Copy-paste two blocks of auto generated javascipt codes to
 
         yourname.github.io\_layouts\post.html
 
